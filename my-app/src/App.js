@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import User from "./components/User";
 import Clock from "./components/Clock";
+import Form from "./components/Form";
 function App() {
   return (
 <div>
@@ -11,6 +12,7 @@ function App() {
           <User info="User 03" />
         </ul>
         <Clock title="Current data naja = " />
+        <Form />
       </div>
   );
 }
